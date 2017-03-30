@@ -7,15 +7,16 @@ categories: announcement general
 
 
 <!--![Kodethon Screenshot]({{site.url}}{{site.baseurl}}/images/hw.png)-->
-<iframe width="730" height="200" src="https://www.kodethon.com/#/embed?c=3b5d30f75af09e6233bd7b4ce3853de8&e=javascript&v=node-5.6.0&f=/C/math.c" style="border:1px solid lightgrey"></iframe>
+<iframe width="730" height="230" src="https://www.kodethon.com/#/embed?c=3b5d30f75af09e6233bd7b4ce3853de8&e=javascript&v=node-5.6.0&f=/C/math.c" style="border:1px solid lightgrey"></iframe>
 
 <div style="text-align:center">
 <p style="color: gray">Above is an embedded Kodethon project.  It is live so feel free to edit and run.</p>
 </div>
 
 
-Kodethon has a new feature!  You can now embed a Kodethon project directly into
-any webpage.  We call this feature <b>Embed</b>.  You can see an example above.  In this example, you can edit an run a C program.  
+Kodethon has a new feature!  Now, you can embed a Kodethon project directly into
+any webpage.  We call this feature <b>Embed</b>.  You can see an example above.
+In this example, you can edit an run a C program.  
 
 <em>Q: Who can use this feature?</em> <br/>
 A: <b>Anyone!</b>  All you have to do is create a
@@ -40,11 +41,11 @@ programs.
 
 <h2>Example: Python</h2>
 
-<iframe width="730" height="200" src="https://www.kodethon.com/#/embed?c=3b5d30f75af09e6233bd7b4ce3853de8&e=python&v=2.7.9&f=/python/sq.py" style="border:1px solid lightgrey"></iframe>
+<iframe width="730" height="230" src="https://www.kodethon.com/#/embed?c=3b5d30f75af09e6233bd7b4ce3853de8&e=python&v=2.7.9&f=/python/sq.py" style="border:1px solid lightgrey"></iframe>
 
 <h2>Example: Java</h2>
 
-<iframe width="730" height="200" src="https://www.kodethon.com/#/embed?c=3b5d30f75af09e6233bd7b4ce3853de8&e=java&v=1.8.0&f=/java/HelloWorld.java" style="border:1px solid lightgrey"></iframe>
+<iframe width="730" height="230" src="https://www.kodethon.com/#/embed?c=3b5d30f75af09e6233bd7b4ce3853de8&e=java&v=1.8.0&f=/java/HelloWorld.java" style="border:1px solid lightgrey"></iframe>
 
 
 <h2>Generating Embed Views</h2>
