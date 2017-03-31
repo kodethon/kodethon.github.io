@@ -1,13 +1,44 @@
-# My project's README 
+# Kodethon Blog
 
+This repository contains the source code for the Kodethon Blog.  
+The blog is a jekyll blog.
 
 ## How to serve blog
 
 ### Development
 
-````bash
+```bash
 jekyll server --config _config.yml,_config_dev.yml --drafts --watch
-````
+```
+
+### Production
+
+We deploy this blog in a Docker container.
+
+#### Building the Docker image
+
+docker build -t kodejoy/kodethon-blog .
+
+#### Run docker container
+
+In your production server, run the command below.  The VIRTUAL_HOST and VIRTUAL_PORT are specific to nginx-proxy which is specific to Kodethon's infrastructure.  So you would not need them in another environment, for example, if you are not using nginx-proxy.
+
+```bash
+docker run -d -P -e "JEKYLL_ENV=production" -e "VIRTUAL_HOST=blog.kodethon.com" -e "VIRTUAL_PORT=4000" kodejoy/kodethon-blog jekyll s
+```
+
+### Organization
+
+#### videos
+Put video files in the `videos/` folder.
+
+#### images 
+Put video files in the `images/` folder.
+
+#### _includes
+
+head.html: You may want to modify this file to include external CSS or JS files.
+
 
 ### Acknowledgements
 
