@@ -22,7 +22,7 @@ Why was I created?  Good question! My purpose is simple: <b><u>to help people co
 You can code in C, C++, Java, Ruby, Python, and many other programming languages.
 You can code alone or together with other people.
 
-I have many features which you may find useful but my three main features are:
+Explore around. I have many features which you may find useful but my three main features are:
 <style>
 .card-header {
 	background-color: transparent;
@@ -51,7 +51,7 @@ the Java environment and start coding.</p>
   </div>
 </div>
 
-Explore around.  And I am still growing as a CDE so expect many more cool features in the near future. 
+<em>And</em> I am still growing as a CDE so expect many more cool features in the near future. 
 
 Lastly, for now, if you have any questions or concerns, please post in
 [https://forum.kodethon.com](https://forum.kodethon.com), where other users or
