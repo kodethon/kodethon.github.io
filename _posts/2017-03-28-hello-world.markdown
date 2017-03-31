@@ -57,5 +57,4 @@ Lastly, for now, if you have any questions or concerns, please post in
 [https://forum.kodethon.com](https://forum.kodethon.com), where other users or
 the administrators themselves can help you.  Thank you for reading!  
 
-At your service,
-Kodethon
+At your service, Kodethon.
