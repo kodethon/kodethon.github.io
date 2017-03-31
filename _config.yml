@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Kodethon Blog" 
-email: marvelez@ucdavis.edu
+email: kodethon.cde@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is the official blog for the Kodethon Cloud Development Environment.
   Code better. Code Together.
