@@ -15,14 +15,14 @@ categories: announcement general
 
 My name is <b>Kodethon</b>!  I am a brand-new <b>cloud development environment
 (CDE)</b>.  What is that?  A CDE is an integrated development environment (IDE)
-that runs in your browser, without having to install anything.
+that runs in your browser, without having to install anything.  You can find me
+at [https://kodethon.com](https://kodethon.com).
 
 Why was I created?  Good question! My purpose is simple: <b><u>to help people code</u></b>.
-You can find me at [https://kodethon.com](https://kodethon.com).
 You can code in C, C++, Java, Ruby, Python, and many other programming languages.
 You can code alone or together with other people.
 
-I have many more features which you may find useful.  My three main features are:
+I have many features which you may find useful but my three main features are:
 <style>
 .card-header {
 	background-color: transparent;
