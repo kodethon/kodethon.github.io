@@ -131,17 +131,31 @@ Feel free to edit the files and click the 'Run' button.</p>
 </div>
 </div>
 
-<h2 class="section-header">Generating Embed Views</h2>
+Ready to create an embed? Let's create one in three easy steps!
 
-<div class="margin-top-bottom-20" style="margin-bottom:50px;">
+<h2 class="section-header">Creating an Embed</h2>
+
+<div class="margin-top-bottom-20">
 <div class="padding-top-bottom-10">
-<p><b>Step 1: Create a Kodethon Project</b></p>
+<p><b>Step 1: Log in to your Kodethon account</b></p>
+If you haven't already, create an account with <a href="https://www.kodethon.com">Kodethon</a>.
+</div>
+
+<div class="padding-top-bottom-10">
+<p><b>Step 2: Create a Kodethon Project</b></p>
 The following link provides instructions on creating a project in Kodethon: <a href="https://forum.kodethon.com/d/2-how-to-create-a-project">https://forum.kodethon.com/d/2-how-to-create-a-project</a>
 </div>
 
 <div class="padding-top-bottom-10">
-<p><b>Step 2: Get the Embed Link</b></p>
+<p><b>Step 3: Get the Embed Link from your project 'Settings'</b></p>
 The following link provides instructions on embedding a project: <a href="https://forum.kodethon.com/d/22-how-to-embed-files">https://forum.kodethon.com/d/22-how-to-embed-files</a>
 </div>
 
+</div>
+
+<h2 class="section-header">Did you enjoy this post?</h2>
+
+<div class="margin-top-bottom-20" style="margin-bottom:50px;">
+	Let us know what you think in our 
+<a href="https://forum.kodethon.com">forum</a>!
 </div>
