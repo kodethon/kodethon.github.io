@@ -30,9 +30,9 @@ categories: announcement general
 		padding: 30px 35px;
 	}
 
-	.padding-top-bottom-5 {
-		padding-top: 5px;
-		padding-bottom: 5px;
+	.padding-top-bottom-10 {
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 
 	.margin-top-bottom-20 {
@@ -57,15 +57,15 @@ any webpage. Below is a quick demo video of what it looks like:
 </div>
 
 <div class="padding-top-bottom-10">
-<video width="720" controls>
+<video width="100%" controls>
   <source src="{{site.url}}{{site.baseurl}}/videos/kodethon_embed_demo.mp4" type="video/mp4">
   <!--<source src="{{site.url}}{{site.baseurl}}/videos/kodethon_embed_demo.ogg" type="video/ogg">-->
   Your browser does not support HTML5 video.
 </video>
 </div>
 
-As shown from the video, there are two tabs: <b>files</b> and <b>code</b>. The files tab displays are the files currently in the project.
-Following the files tab is the code tab. Here your viewer can see your amazing code that you want to show and add awesome descriptions. 
+As shown from the video, there are two tabs: <b>files</b> and <b>code</b>. The files tab shows the available files in the project.
+Following the files tab is the code tab. Here the viewers can see your amazing code and along with your awesome description. 
 But perhaps the most appealing feature is that:
 
 <div class="highlight">
@@ -131,10 +131,17 @@ Feel free to edit the files and click the 'Run' button.</p>
 </div>
 </div>
 
-<h2 class="border-bottom-1 padding-top-bottom-5">Generating Embed Views</h2>
+<h2 class="section-header">Generating Embed Views</h2>
 
+<div class="margin-top-bottom-20" style="margin-bottom:50px;">
+<div class="padding-top-bottom-10">
 <p><b>Step 1: Create a Kodethon Project</b></p>
-The following link provides instructions on creating a project in Kodethon: [https://forum.kodethon.com/d/2-how-to-create-a-project](https://forum.kodethon.com/d/2-how-to-create-a-project).
+The following link provides instructions on creating a project in Kodethon: <a href="https://forum.kodethon.com/d/2-how-to-create-a-project">https://forum.kodethon.com/d/2-how-to-create-a-project</a>
+</div>
 
+<div class="padding-top-bottom-10">
 <p><b>Step 2: Get the Embed Link</b></p>
-The following link provides instructions on embedding a project: [https://forum.kodethon.com/d/22-how-to-embed-files](https://forum.kodethon.com/d/22-how-to-embed-files).
+The following link provides instructions on embedding a project: <a href="https://forum.kodethon.com/d/22-how-to-embed-files">https://forum.kodethon.com/d/22-how-to-embed-files</a>
+</div>
+
+</div>
