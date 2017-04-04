@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  "New Feature: Embed"
+title:  "Embedding Kodethon Projects In Webpages"
 date:   2017-03-29 15:58:16 -0700
-categories: announcement general 
----
+categories: ['Announcements', 'New Feature']
+tags: ['New Feature', 'Embed'] 
+#author: Martin Velez and Michael Yen
 
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+---
 
 <style>
 	body {
-		line-height:2em;
-		font-size:18px;
+		/*line-height:2em;*/
+		/*font-size:18px;*/
 	}
 
 	.section {
@@ -79,7 +79,7 @@ Answering Questions
 </h2>
 
 <div class="margin-top-bottom-20">
-<em>~ Q: Who can use this feature?</em> <br/>
+<em>Q: Who can use this feature?</em> <br/>
 A: <b>Anyone!</b>  All you have to do is create a
 Kodethon project.  And get its embed link.  We believe that anyone who writes
 regularly about programming subjects like bloggers, tutorial writers, teachers,
@@ -87,12 +87,12 @@ and researchers will find this feature useful.  <a href="https://3b5d30f75af09e6
 </div>
 
 <div class="margin-top-bottom-20">
-<em>~ Q: When would I use this feature? </em><br/> 
+<em>Q: When would I use this feature? </em><br/> 
 A: <b>Anytime</b> you want to share code in a webpage and want your users to play with the code.  In other words, when you want them to edit the code and run it to see the effect of their changes. 
 </div>
 
 <div class="margin-top-bottom-20">
-<em>~ Q: How does this compare to similar tools?</em><br/> 
+<em>Q: How does this compare to similar tools?</em><br/> 
 A: Currently, there a few code syntax highlighters out there: <a
 href="http://alexgorbatchev.com/SyntaxHighlighter/">SyntaxHighlighter</a>, <a
 href="https://highlightjs.org/">highlight.js</a>, <a
