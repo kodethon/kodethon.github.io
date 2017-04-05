@@ -22,6 +22,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.kodethon.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: martin_velez_
 github_username:  martinvelez
+#permalink: date # default
+permalink: /:year/:month/:day/:title.html
 
 # Build settings
 markdown: kramdown

@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Hello, World!"
-date:   2017-03-29 15:58:16 -0700
-categories: announcement general 
+title:  "Hello, World! My name is Kodethon."
+date:   2017-03-28 15:58:16 -0700
+categories: announcement 
+tags: ["Announcement", "General"]
 ---
 
 <!--![Kodethon Screenshot]({{site.url}}{{site.baseurl}}/images/hw.png)-->
@@ -18,9 +19,10 @@ My name is <b>Kodethon</b>!  I am a brand-new <b>cloud development environment
 that runs in your browser, without having to install anything.  You can find me
 at [https://kodethon.com](https://kodethon.com).
 
-Why was I created?  Good question! My purpose is simple: <b><u>to help people code</u></b>.
-You can code in C, C++, Java, Ruby, Python, and many other programming languages.
-You can code alone or together with other people.
+Why was I created?  Good question! My purpose is simple: <b><u>to help people
+code</u></b>.  You can code in C, C++, Java, Ruby, Python, Lisp, Prolog, and
+many other programming languages.  You can code alone or together with other
+people.
 
 Explore around. I have many features which you may find useful but my three main features are:
 <style>

@@ -29,6 +29,20 @@ docker run -d -P -e "JEKYLL_ENV=production" -e "VIRTUAL_HOST=blog.kodethon.com" 
 
 ### Organization
 
+#### Categories
+
+* Announcements
+  * General
+  * New Feature
+  * Bug fix
+	* New Environment
+* Tutorials
+  * C
+  * C++
+  * Java
+  * Prolog 
+
+
 #### videos
 Put video files in the `videos/` folder.
 
