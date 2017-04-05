@@ -53,7 +53,7 @@ IBM coded parts of its Watson supercomputer in Prolog.
 Generally, Prolog is a suitable choice for applications where objects and their
 relations are important.  For example, parsing natural languages is relatively
 simple in Prolog.  Given text, Prolog can use the rules defined by the
-programmer to determine if the text is a English sentences.
+programmer to determine if the text is a English sentence.
 
 
 <h2 class="section-header">Syntax</h2>
