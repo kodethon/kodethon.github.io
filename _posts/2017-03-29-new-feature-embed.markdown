@@ -65,7 +65,7 @@ any webpage. Below is a quick demo video of what it looks like:
 </div>
 
 As shown from the video, there are two tabs: <b>files</b> and <b>code</b>. The files tab shows the available files in the project.
-Following the files tab is the code tab. Here the viewers can see your amazing code and along with your awesome description. 
+In the code tab, viewers can see both your amazing code and your awesome description of it. 
 But perhaps the most appealing feature is that:
 
 <div class="highlight">
