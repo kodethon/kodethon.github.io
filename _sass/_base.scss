@@ -196,3 +196,12 @@ pre {
     fill: $grey-color;
   }
 }
+
+.site-title:hover {
+	text-decoration:none;
+	font-style:italic;
+}
+
+.left-10 {
+	margin-left:10px;
+}

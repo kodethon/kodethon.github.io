@@ -130,7 +130,7 @@ In Kodethon, to use GNU Prolog,
 3. In the terminal window, type <b>gprolog</b>.
 
 In Kodethon, to use SWI-Prolog, 
-1. Select the Prolog/gnu-1.4.4 environment.
+1. Select the Prolog/swi-7.4.1 environment.
 2. In the CDE Shell, type <b>terminal</b>. A new window/tab will open.
 3. In the terminal window, type <b>swipl</b>.
 
@@ -149,7 +149,7 @@ parent(elizabeth, james).
 We run GNU Prolog.  Then we consult the file by typing `['sample.pl'].`.
 If the file does not contain any syntax errors, then the interpreter will output `yes`.
 ```bash
-kodethon@kodehton:~/prolog$ gprolog
+kodethon@kodethon:~/prolog$ gprolog
 GNU Prolog 1.4.4 (64 bits)
 Compiled Apr  4 2017, 05:52:23 with gcc
 By Daniel Diaz
