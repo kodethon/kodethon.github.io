@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  A Brief Introduction to Prolog
-date:   2017-04-03 17:00:00 -0700
+date:   2017-04-06 12:00:00 -0700
 categories: ["New Feature", "Prolog"]
 tags: ["New Feature", "Prolog"]
 ---
@@ -39,7 +39,7 @@ tags: ["New Feature", "Prolog"]
 	}
 </style>
 
-<img src="{{site.url}}{{site.baseurl}}/images/prolog_factorial.gif" alt="Factorial Recursion in Prolog" class="img-fluid mx-auto d-block" style="border: 1px solid lightgrey"/>
+<img src="{{site.url}}{{site.baseurl}}/images/prolog_factorial.svg" alt="Factorial Recursion in Prolog" class="img-fluid mx-auto d-block" style="border: 1px solid lightgrey"/>
 
 Kodethon provides an environment to program in Prolog.  Prolog is a
 general-purpose logic programming language.  Prolog is a relatively old
