@@ -11,6 +11,20 @@ The blog is a jekyll blog.
 jekyll server --config _config.yml,_config_dev.yml --drafts --watch
 ```
 
+#### Disqus Comments
+
+<b>shortname:</b> kodethon
+
+To add Disqus comments, I followed the instructions given in Disqus after
+clicking Settings > "Add Disqus to Site".
+
+1. Login into Disqus using my personal account
+2. Followed the disqus official documentation for integrating into jekyll
+
+I also found additional resources helpful.
+
+1. [http://sgeos.github.io/jekyll/disqus/2016/02/14/adding-disqus-to-a-jekyll-blog.html](http://sgeos.github.io/jekyll/disqus/2016/02/14/adding-disqus-to-a-jekyll-blog.html)
+
 ### Production
 
 We deploy this blog in a Docker container.

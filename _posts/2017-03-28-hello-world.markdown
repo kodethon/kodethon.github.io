@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Hello, World! My name is Kodethon."
 date:   2017-03-28 15:58:16 -0700
 categories: announcement 

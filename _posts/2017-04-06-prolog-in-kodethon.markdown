@@ -1,9 +1,10 @@
 ---
 layout: post
+comments: true
 title:  A Brief Introduction to Prolog
 date:   2017-04-06 12:00:00 -0700
 categories: ["New Feature", "Prolog"]
-tags: ["New Feature", "Prolog"]
+tags: ["New Environment", "Prolog", "Tutorial"]
 ---
 
 <style>
@@ -40,6 +41,11 @@ tags: ["New Feature", "Prolog"]
 </style>
 
 <img src="{{site.url}}{{site.baseurl}}/images/prolog_factorial.svg" alt="Factorial Recursion in Prolog" class="img-fluid mx-auto d-block" style="border: 1px solid lightgrey"/>
+<div style="text-align:center">
+<p style="color: gray;margin-bottom:0px">Left: The factorial function implemented in Prolog.</p>
+<p style="color: gray;margin-top:0px">Right: A tree representation of the goal factorial(3,6).</p>
+</div>
+
 
 Kodethon provides an environment to program in Prolog.  Prolog is a
 general-purpose logic programming language.  Prolog is a relatively old
@@ -52,16 +58,15 @@ IBM coded parts of its Watson supercomputer in Prolog.
 
 Generally, Prolog is a suitable choice for applications where objects and their
 relations are important.  For example, parsing natural languages is relatively
-simple in Prolog.  Given text, Prolog can use the rules defined by the
-programmer to determine if the text is a English sentence.
-
+simple in Prolog.  Creating and searching databases is also relatively easy.
 
 <h2 class="section-header">Syntax</h2>
 A Prolog program is a collection of <em>clauses</em>.  There are two types of
 clauses, facts and rules.
 
-A <b><em>rule</em></b> has the form `Head :- Body.`  This means that `Head` is true if
-`Body` is true.  Body is true.".  The following are example rules. 
+A <b><em>rule</em></b> has the form `Head :- Body.`  This means that `Head` is
+true if `Body` is true. The following are example rules. 
+
 ```prolog
 male(james) :- true.
 male(charles) :- true.
@@ -74,16 +79,12 @@ female(sophia).
 parent(charles, james).
 parent(elizabeth, james).
 ```
-
 Alternatively, you can think of a fact as rule where the body is the built-in term `true`. For example, the two following clauses are equivalent. 
 ```prolog
 female(sophia).
 female(sophia) :- true.
 ```
-
-
 Prolog has a single data type called a <em>term</em>.  A term can be:
-
 * an atom,
 * a number,
 * a variable,
@@ -178,6 +179,7 @@ The interpreter will report <b>no</b> otherwise.
 
 Below, for example, we enter the goal `male(james)`.  Prolog searches the facts
 we loaded and reports `yes` since it can conclude that fact from the program.
+
 ```prolog 
 | ?- male(james).  
 yes 
@@ -226,9 +228,6 @@ There is a lot more to learn.  Here are some resources:
 5. [https://bernardopires.com/2013/10/try-logic-programming-a-gentle-introduction-to-prolog/](https://bernardopires.com/2013/10/try-logic-programming-a-gentle-introduction-to-prolog/)
 
 We plan on building our own tutorial to take advatange of Kodethon's Embed feature.  Stay tuned!
-
-
-
 
 <h2 class="section-header">Footnotes</h2>
 [^1]: [https://pdfs.semanticscholar.org/d0df/2fa0d0ebbcbeb20c922fad507c1be55371f8.pdf](https://pdfs.semanticscholar.org/d0df/2fa0d0ebbcbeb20c922fad507c1be55371f8.pdf)
