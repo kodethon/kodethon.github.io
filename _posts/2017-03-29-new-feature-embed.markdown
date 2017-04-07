@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Embedding Projects In Webpages"
 date:   2017-03-29 15:58:16 -0700
 categories: ['Announcements', 'New Feature']
