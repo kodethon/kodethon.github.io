@@ -52,6 +52,8 @@ general-purpose logic programming language.  Prolog is a relatively old
 programming language developed in 1972 by Alain Colmerauer and Philippe
 Roussel.  Despite its age, Prolog is a relatively obscure programming language.
 
+
+
 Nonetheless, it is still useful.  For example, in 2005, NASA used Prolog to
 write a natural language interface for International Space Station.[^1]  Also,
 IBM coded parts of its Watson supercomputer in Prolog.
@@ -226,6 +228,7 @@ There is a lot more to learn.  Here are some resources:
 3. [https://www.cpp.edu/~jrfisher/www/prolog_tutorial/contents.html](https://www.cpp.edu/~jrfisher/www/prolog_tutorial/contents.html)
 4. [http://www.doc.gold.ac.uk/~mas02gw/prolog_tutorial/prologpages/](http://www.doc.gold.ac.uk/~mas02gw/prolog_tutorial/prologpages/)
 5. [https://bernardopires.com/2013/10/try-logic-programming-a-gentle-introduction-to-prolog/](https://bernardopires.com/2013/10/try-logic-programming-a-gentle-introduction-to-prolog/)
+6. [https://www.metalevel.at/prolog](https://www.metalevel.at/prolog)
 
 We plan on building our own tutorial to take advatange of Kodethon's Embed feature.  Stay tuned!
 

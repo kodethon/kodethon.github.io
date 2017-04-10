@@ -7,13 +7,10 @@ categories: announcement
 tags: ["Announcement", "General"]
 ---
 
-<!--![Kodethon Screenshot]({{site.url}}{{site.baseurl}}/images/hw.png)-->
-<!--<img src="{{site.url}}{{site.baseurl}}/images/hw.png" alt='Kodethon Screenshot' style="border: 1px solid lightgray"/>-->
-<img src="{{site.url}}{{site.baseurl}}/images/kodethon_screenshot.png" alt='Kodethon Screenshot' style="border: 1px solid lightgray"/>
+<img class="img-fluid" src="{{site.url}}{{site.baseurl}}/images/kodethon_screenshot.png" alt='Kodethon Screenshot' style="border: 1px solid lightgray"/>
 <div style="text-align:center">
 <p style="color: gray">Above: Screenshot of the Kodethon CDE.</p>
 </div>
-
 
 My name is <b>Kodethon</b>!  I am a brand-new <b>cloud development environment
 (CDE)</b>.  What is that?  A CDE is an integrated development environment (IDE)
