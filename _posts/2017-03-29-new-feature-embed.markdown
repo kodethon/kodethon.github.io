@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Embedding Kodethon Projects In Webpages"
+title:  "Embedding Projects In Webpages"
 date:   2017-03-29 15:58:16 -0700
 categories: ['Announcements', 'New Feature']
 tags: ['New Feature', 'Embed'] 
@@ -11,7 +11,7 @@ tags: ['New Feature', 'Embed']
 
 <style>
 	body {
-		/*line-height:2em;*/
+		line-height:1.75em;
 		/*font-size:18px;*/
 	}
 
@@ -114,21 +114,21 @@ Examples of Embedding
 Feel free to edit the files and click the 'Run' button.</p>
 
 <div class="section">
+
+<div class="margin-top-bottom-20">
 <h3>1. Square Root in C</h3>
 <iframe width="100%" height="230"  frameborder="0" class="kodethon-iframe"
 	src="https://www.kodethon.com/#/embed?c=3b5d30f75af09e6233bd7b4ce3853de8&e=javascript&v=node-5.6.0&f=/C/math.c"></iframe>
-<div style="text-align:center">
 </div>
 
+<div class="margin-top-bottom-20">
 <h3>2. Square Root in Python</h3>
 <iframe width="100%" height="230" src="https://www.kodethon.com/#/embed?c=3b5d30f75af09e6233bd7b4ce3853de8&e=python&v=2.7.9&f=/python/sq.py" style="border:1px solid lightgrey"></iframe>
-<div style="text-align:center">
 </div>
 
+<div class="margin-top-bottom-20">
 <h3>3. A Simple Java Hello World</h3>
-
 <iframe width="100%" height="230" src="https://www.kodethon.com/#/embed?c=3b5d30f75af09e6233bd7b4ce3853de8&e=java&v=1.8.0&f=/java/HelloWorld.java" style="border:1px solid lightgrey"></iframe>
-<div style="text-align:center">
 </div>
 </div>
 
@@ -157,6 +157,5 @@ The following link provides instructions on embedding a project: <a href="https:
 <h2 class="section-header">Did you enjoy this post?</h2>
 
 <div class="margin-top-bottom-20" style="margin-bottom:50px;">
-	Let us know what you think in our 
-<a href="https://forum.kodethon.com">forum</a>!
+	Let us know what you think below!
 </div>
