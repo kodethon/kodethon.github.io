@@ -5,6 +5,7 @@ title:  "Hello, World! My name is Kodethon."
 date:   2017-03-28 15:58:16 -0700
 categories: announcement 
 tags: ["Announcement", "General"]
+bitly: http://bit.ly/2o4myjX-kodethon
 ---
 
 <img class="img-fluid" src="{{site.url}}{{site.baseurl}}/images/kodethon_screenshot.png" alt='Kodethon Screenshot' style="border: 1px solid lightgray"/>

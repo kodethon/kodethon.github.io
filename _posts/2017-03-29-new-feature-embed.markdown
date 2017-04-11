@@ -6,6 +6,7 @@ date:   2017-03-29 15:58:16 -0700
 categories: ['Announcements', 'New Feature']
 tags: ['New Feature', 'Embed'] 
 #author: Martin Velez and Michael Yen
+bitly: http://bit.ly/2o4tFsD-kodethon
 ---
 
 <img class="img-fluid" src="{{site.url}}{{site.baseurl}}/images/embed_screenshot.png" alt='Kodethon Screenshot' style="border: 1px solid lightgray"/>

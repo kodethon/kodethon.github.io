@@ -18,13 +18,10 @@ a:hover {
 	background-color: #ffffff;
 	border: 1px solid gray;
 	padding-left: 1rem;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
 	margin:0;
 }
 
 .header h1{
-	margin:0;
 }
 
 body {
@@ -66,11 +63,11 @@ img {
 
 <div class="content">
 
-	{% for post in site.posts limit:6 %}
+	{% for post in site.posts limit:3 %}
 		<div class="post">	
 			<h2>{{ post.title }}</h2>
 			<p style="color:grey;margin-top:0">{{ post.date | date: "%b %-d, %Y" }}</p>
-			{{ post.excerpt }} <p><a href="{{post.url | absolute_url }}">Read more &raquo;</a></p>
+			{{ post.excerpt }} <p><a href="{{ post.bitly }}">Read Article &raquo;</a></p>
 		</div>
 	{% endfor %}
 

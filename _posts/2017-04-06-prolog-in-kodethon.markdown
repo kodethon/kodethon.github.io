@@ -5,6 +5,7 @@ title:  A Brief Introduction to Prolog
 date:   2017-04-06 12:00:00 -0700
 categories: ["New Feature", "Prolog"]
 tags: ["New Environment", "Prolog", "Tutorial"]
+bitly: http://bit.ly/2o2oDw2-kodethon
 ---
 
 <img src="{{site.url}}{{site.baseurl}}/images/prolog_factorial.png" alt="Factorial Recursion in Prolog" class="img-fluid mx-auto d-block" style="border: 1px solid lightgrey"/>
