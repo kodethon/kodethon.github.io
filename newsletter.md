@@ -16,7 +16,7 @@ a:hover {
 }
 .header {
 	background-color: #ffffff;
-	border-bottom: 1px solid gray;
+	border: 1px solid gray;
 	padding-left: 1rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
