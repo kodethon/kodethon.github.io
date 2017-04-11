@@ -7,6 +7,13 @@ categories: ["New Feature", "Prolog"]
 tags: ["New Environment", "Prolog", "Tutorial"]
 ---
 
+<img src="{{site.url}}{{site.baseurl}}/images/prolog_factorial.svg" alt="Factorial Recursion in Prolog" class="img-fluid mx-auto d-block" style="border: 1px solid lightgrey"/>
+<div style="text-align:center">
+<p style="color: gray;margin-bottom:0px">Left: The factorial function implemented in Prolog.</p>
+<p style="color: gray;margin-top:0px">Right: A tree representation of the goal factorial(3,6).</p>
+</div>
+
+
 <style>
 
 	.section {
@@ -40,11 +47,6 @@ tags: ["New Environment", "Prolog", "Tutorial"]
 	}
 </style>
 
-<img src="{{site.url}}{{site.baseurl}}/images/prolog_factorial.svg" alt="Factorial Recursion in Prolog" class="img-fluid mx-auto d-block" style="border: 1px solid lightgrey"/>
-<div style="text-align:center">
-<p style="color: gray;margin-bottom:0px">Left: The factorial function implemented in Prolog.</p>
-<p style="color: gray;margin-top:0px">Right: A tree representation of the goal factorial(3,6).</p>
-</div>
 
 
 Kodethon provides an environment to program in Prolog.  Prolog is a

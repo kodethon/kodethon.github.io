@@ -6,8 +6,15 @@ date:   2017-03-29 15:58:16 -0700
 categories: ['Announcements', 'New Feature']
 tags: ['New Feature', 'Embed'] 
 #author: Martin Velez and Michael Yen
-
 ---
+
+<img class="img-fluid" src="{{site.url}}{{site.baseurl}}/images/embed_screenshot.png" alt='Kodethon Screenshot' style="border: 1px solid lightgray"/>
+<div style="text-align:center">
+<p style="color: gray">Above: A Kodethon Project embedded into a webpage.  Not an actual embed.</p>
+</div>
+
+<p>Want to display code snippets and allow your viewers to run and edit them?
+Here's a new feature we think may help.</p>
 
 <style>
 	body {
@@ -50,7 +57,6 @@ tags: ['New Feature', 'Embed']
 	}
 </style>
 
-Want to display code snippets and allow your viewers to run and edit them? Here's a new feature we think may help. 
 
 <div class="highlight">
 With this feature you can embed a Kodethon project directly into
