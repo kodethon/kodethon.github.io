@@ -17,11 +17,14 @@ a:hover {
 .header {
 	background-color: #ffffff;
 	border: 1px solid gray;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	padding-left: 1rem;
 	margin:0;
 }
 
 .header h1{
+	margin:0;
 }
 
 body {
