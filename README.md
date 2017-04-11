@@ -25,6 +25,12 @@ I also found additional resources helpful.
 
 1. [http://sgeos.github.io/jekyll/disqus/2016/02/14/adding-disqus-to-a-jekyll-blog.html](http://sgeos.github.io/jekyll/disqus/2016/02/14/adding-disqus-to-a-jekyll-blog.html)
 
+#### Bitly
+
+username: kodethon
+
+I am using Bitly links to track clicks from emails.
+
 ### Production
 
 We deploy this blog in a Docker container.
