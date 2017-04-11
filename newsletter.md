@@ -34,7 +34,6 @@ body {
 }
 .content {
 	padding-top:1rem;
-	background-color: #9fc5e8;
 }
 
 img {
