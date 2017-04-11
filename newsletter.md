@@ -16,7 +16,7 @@ a:hover {
 }
 .header {
 	background-color: #ffffff;
-	border-bottom: 1px solid lightgrey;
+	border-bottom: 1px solid gray;
 	padding-left: 1rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
@@ -31,10 +31,10 @@ body {
 	width:100%;
 	margin:0;
 	padding: 0;
-	background-color: #9fc5e8;
 }
 .content {
-	margin-top:1rem;
+	padding-top:1rem;
+	background-color: #9fc5e8;
 }
 
 img {
@@ -45,6 +45,7 @@ img {
 	padding: 0.5rem 1rem 0.5rem 1rem;
 	margin-bottom: 2rem;
 	background-color: #ffffff;
+	border: 1px solid gray;
 }
 
 .post h2 {
