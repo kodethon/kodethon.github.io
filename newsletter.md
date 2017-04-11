@@ -3,9 +3,7 @@ layout: none
 ---
 
 <head>
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 </head>
 
 <body>
@@ -19,37 +17,58 @@ a:hover {
 .header {
 	background-color: #ffffff;
 	border-bottom: 1px solid lightgrey;
+	padding-left: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin:0;
+}
+
+.header h1{
+	margin:0;
+}
+
+body {
+	width:100%;
+	margin:0;
+	padding: 0;
+	background-color: #f7f7f7;
+}
+.content {
+	width: 70%;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+img {
+	width: 100%;
+}
+
+.post {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	border: 1px solid lightgrey;
+	background-color: white;
 }
 </style>
 
-<div class="container-fluid" style="background-color: #f7f7f7">
 <!-- site logo -->
-<div class="container-fluid header">
-	<div class="container">	
+<div class="header">
 		<h1 style="font-family:'Varela Round', sans-serif; font-weight:bold;">
 		<a class="" href="{{ "/" | relative_url}}">
-<span style="color:#5cb85c">The </span>
-<span style="color:#3d85c6;font-family:'Varela Round', sans-serif;">{{ "Kode" }}</span><span style="color: #9fc5e8;;font-family:'Varela Round', sans-serif;">{{ "thon" }}</span><span style="color:#F39237"> Weekly</span></a>
+<span style="color:#3d85c6;font-family:'Varela Round', sans-serif;">{{ "Kode" }}</span><span style="color: #9fc5e8;;font-family:'Varela Round', sans-serif;">{{ "thon" }}</span><span style="color:#F39237"> News</span></a>
 </h1>
-	</div>
 </div>
 
-<div class="container">
-
+<div class="content">
 {% for post in site.posts limit:6 %}
-<div class="card">
-<div class="card-block">
+<div class="post">	
 <h2>{{ post.title }}</h2>
+<p style="color:grey">{{ post.date | date: "%b %-d, %Y" }}</p>
 <p>{{ post.excerpt }} <a href="{{post.url | absolute_url }}">Read more &raquo;</a></p>
 </div>
-</div>
-<br/>
 {% endfor %}
-
-<!-- advertising -->
-</div>
 </div>
 </body>
 
