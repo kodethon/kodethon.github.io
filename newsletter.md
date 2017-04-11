@@ -23,10 +23,6 @@ a:hover {
 	margin:0;
 }
 
-.header h1{
-	margin:0;
-}
-
 body {
 	width:100%;
 	margin:0;
@@ -58,7 +54,7 @@ img {
 
 <!-- site logo -->
 <div class="header">
-		<h1 style="font-family:'Varela Round', sans-serif; font-weight:bold;">
+		<h1 style="font-family:'Varela Round', sans-serif; font-weight:bold; margin:0">
 		<a href="https://kodethon.com">
 <span style="color:#3d85c6;font-family:'Varela Round', sans-serif;">{{ "Kode" }}</span><span style="color: #9fc5e8;;font-family:'Varela Round', sans-serif;">{{ "thon" }}</span></a> <span style="color:#F39237">News</span>
 </h1>
