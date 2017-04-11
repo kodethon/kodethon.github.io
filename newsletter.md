@@ -34,9 +34,7 @@ body {
 	background-color: #f7f7f7;
 }
 .content {
-	padding-left: 1rem;
-	padding-right: 1rem;
-	margin:1rem;
+	margin-top:1rem;
 }
 
 img {
@@ -44,25 +42,18 @@ img {
 }
 
 .post {
-	/*margin-top: 1rem;
-	margin-right: 1rem;
-	margin-bottom:1rem;
-	margin-left:1rem;*/
-	margin-bottom: 1rem;
-	padding: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-bottom: 2rem;
 	background-color: #ffffff;
 }
 
 .post h2 {
 	font-family:'Varela Round', sans-serif; 
 	font-weight:bold;
-	margin-top:0;
 	margin-bottom:0;
 }
 
-hr {
-	color: lightgrey;
-}
 
 </style>
 
@@ -75,15 +66,17 @@ hr {
 </div>
 
 <div class="content">
-{% for post in site.posts limit:6 %}
-<div class="post">	
-<h2>{{ post.title }}</h2>
-<p style="color:grey;margin-top:0">{{ post.date | date: "%b %-d, %Y" }}</p>
-<p>{{ post.excerpt }} <a href="{{post.url | absolute_url }}">Read more &raquo;</a></p>
-</div>
-{% endfor %}
-<p>Kodethon is a cloud development environment.  
-<a hfref="https://kodethon.com">Try it out</a>.</p>  
+
+	{% for post in site.posts limit:6 %}
+		<div class="post">	
+			<h2>{{ post.title }}</h2>
+			<p style="color:grey;margin-top:0">{{ post.date | date: "%b %-d, %Y" }}</p>
+			<p style="margin-bottom:0">{{ post.excerpt }} <a href="{{post.url | absolute_url }}">Read more &raquo;</a></p>
+		</div>
+	{% endfor %}
+
+	<p>Kodethon is a cloud development environment. <a hfref="https://kodethon.com">Try it out</a>.</p>  
+
 </div>
 </body>
 
