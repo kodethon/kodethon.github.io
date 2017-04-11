@@ -31,7 +31,7 @@ body {
 	width:100%;
 	margin:0;
 	padding: 0;
-	background-color: #f7f7f7;
+	background-color: #9fc5e8;
 }
 .content {
 	margin-top:1rem;
@@ -42,8 +42,7 @@ img {
 }
 
 .post {
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding: 0.5rem 1rem 0.5rem 1rem;
 	margin-bottom: 2rem;
 	background-color: #ffffff;
 }
@@ -71,7 +70,7 @@ img {
 		<div class="post">	
 			<h2>{{ post.title }}</h2>
 			<p style="color:grey;margin-top:0">{{ post.date | date: "%b %-d, %Y" }}</p>
-			<p style="margin-bottom:0">{{ post.excerpt }} <a href="{{post.url | absolute_url }}">Read more &raquo;</a></p>
+			{{ post.excerpt }} <p><a href="{{post.url | absolute_url }}">Read more &raquo;</a></p>
 		</div>
 	{% endfor %}
 
