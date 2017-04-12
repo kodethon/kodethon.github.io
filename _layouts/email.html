@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+			<title>Kodethon News</title>
+      <style>
+				a {
+					text-decoration: none
+				}
+				a:hover {
+					text-decoration: underline
+				}
+				.header {
+					background-color: #ffffff;
+					border: 1px solid lightgray;
+					padding-top: 1rem;
+					padding-bottom: 1rem;
+					padding-left: 1rem;
+					margin:0;
+				}
+
+				body {
+					width:100%;
+					margin:0 auto 0 auto;
+					padding: 0;
+					width: 580px;
+				}
+				.content {
+					padding-top:1rem;
+				}
+
+				img {
+					width: 100%;
+				}
+
+				.post {
+					padding: 0rem 1rem 0rem 1rem;
+					margin-bottom: 2rem;
+					background-color: #ffffff;
+					border: 1px solid lightgray;
+				}
+
+				.post h2 {
+					font-family:'Varela Round', sans-serif; 
+					font-weight:bold;
+					margin-bottom:0;
+				}
+
+				.button {
+						background-color: #3d85c6;
+						border: none;
+						color: white;
+						padding: 0.5rem 0.5rem;
+						text-align: center;
+						text-decoration: none;
+						display: inline-block;
+						font-size: 16px;
+						margin: 4px 2px;
+						cursor: pointer;
+				}
+
+			</style>
+			<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    </head>
+    <body>
+        <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+            <tr>
+                <td align="center" valign="top">
+                    <table border="0" cellpadding="20" cellspacing="0" width="600" id="emailContainer">
+                        <tr>
+                            <td align="center" valign="top">
+                            	{{ content }} 
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

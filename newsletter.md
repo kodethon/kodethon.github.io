@@ -1,55 +1,7 @@
 ---
-layout: null
+layout: email
 ---
-
-<head>
-	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-</head>
-
-<body>
 <style>
-a {
-	text-decoration: none
-}
-a:hover {
-	text-decoration: underline
-}
-.header {
-	background-color: #ffffff;
-	border: 1px solid gray;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	padding-left: 1rem;
-	margin:0;
-}
-
-body {
-	width:100%;
-	margin:0;
-	padding: 0;
-}
-.content {
-	padding-top:1rem;
-}
-
-img {
-	width: 100%;
-}
-
-.post {
-	padding: 0.5rem 1rem 0.5rem 1rem;
-	margin-bottom: 2rem;
-	background-color: #ffffff;
-	border: 1px solid gray;
-}
-
-.post h2 {
-	font-family:'Varela Round', sans-serif; 
-	font-weight:bold;
-	margin-bottom:0;
-}
-
-
 </style>
 
 <!-- site logo -->
@@ -60,18 +12,21 @@ img {
 </h1>
 </div>
 
-<div class="content">
+<div class="content" style="text-align:left">
 
 	{% for post in site.posts limit:3 %}
 		<div class="post">	
 			<h2>{{ post.title }}</h2>
-			<p style="color:grey;margin-top:0">{{ post.date | date: "%b %-d, %Y" }}</p>
-			{{ post.excerpt }} <p><a href="{{ post.bitly }}">Read Article &raquo;</a></p>
+			<p style="color:grey;margin-top:0"><small>{{ post.date | date: "%b %-d, %Y" }}
+			{% for tag in post.tags %}		
+			· <span class="badge badge-default"><i class="fa fa-tag" aria-hidden="true"></i> {{ tag }}</span>
+			{% endfor %}
+			</small></p>
+			{{ post.excerpt }} 
+			<p><a class="button" href="{{ post.bitly }}">Read Article</a></p>
 		</div>
 	{% endfor %}
 
 	<p>Kodethon is a cloud development environment. <a hfref="https://kodethon.com">Try it out</a>.</p>  
 
 </div>
-</body>
-
