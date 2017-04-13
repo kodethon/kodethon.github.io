@@ -47,6 +47,19 @@ In your production server, run the command below.  The VIRTUAL_HOST and VIRTUAL_
 docker run -d -P -e "JEKYLL_ENV=production" -e "VIRTUAL_HOST=blog.kodethon.com" -e "VIRTUAL_PORT=4000" kodejoy/kodethon-blog jekyll s
 ```
 
+### Email
+
+Using TinyLetter.
+
+username: kodethon
+
+To Email Newsletter:
+1. In TinyLetter, click Compose.
+2. Click on Source View.
+3. Copy page source from newsletter.
+4. Paste into: https://templates.mailchimp.com/resources/inline-css/
+5. Pase output source into TinyLetter..
+
 ### Organization
 
 #### Categories
