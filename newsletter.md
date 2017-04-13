@@ -6,27 +6,39 @@ layout: email
     <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
   </tr>
   <tr>
-		<!-- display trouble -->
     <td align="center" valign="top">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" class="container">
-        <tr>
-          <td align="center" valign="top">
-						<p style="color:gray">This email not displaying correctly?  Read this <a href="{{ page.url | absolute_url }}">online</a>.</p> 
+			<!-- display trouble -->
+			<table width="600" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#ffffff">
+				<tr>
+					<td align="center" valign="top">
+						<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+							<tr>
+								<td width="600" class="mobile" align="center" valign="top">
+									<p style="color:gray">This email not displaying correctly?  Read this <a href="{{ page.url | absolute_url }}">online</a>.</p> 
+								</td>
+							</tr>
+						</table>
 					</td>
 				</tr>
 			</table>
 		</td>
 	</tr>
+
 	<tr>
 		<td align="center">
-			<!-- LOGO  -->
-			<table width="100%" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+			<!-- LOGO -->
+			<table width="600" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#ffffff">
 				<tr>
 					<td align="center" valign="top">
-						<!-- site logo -->
-						<h1 style="font-family:'Varela Round', sans-serif; font-weight:bold;">
-						<span style="color:#3d85c6;font-family:'Varela Round', sans-serif;">{{ "Kode" }}</span><span style="color: #9fc5e8;;font-family:'Varela Round', sans-serif;">{{ "thon" }}</span> <span style="color:#F39237">News</span>
-						</h1>
+						<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+							<tr>
+								<td width="600" class="mobile" align="center" valign="top">
+									<h1 style="font-family:'Varela Round', sans-serif; font-weight:bold;">
+									<span style="color:#3d85c6;font-family:'Varela Round', sans-serif;">{{ "Kode" }}</span><span style="color: #9fc5e8;;font-family:'Varela Round', sans-serif;">{{ "thon" }}</span> <span style="color:#F39237">News</span>
+									</h1>
+								</td>
+							</tr>
+						</table>
 					</td>
 				</tr>
 			</table>
