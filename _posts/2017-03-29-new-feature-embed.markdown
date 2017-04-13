@@ -10,6 +10,7 @@ bitly: http://bit.ly/2o4tFsD-kodethon
 ---
 
 <img class="img-fluid" src="{{site.url}}{{site.baseurl}}/images/embed_screenshot.png" alt='Kodethon Screenshot' style="border: 1px solid lightgray"/>
+
 <div style="text-align:center">
 <p style="color: gray">Above: A Kodethon Project embedded into a webpage.  Not an actual embed.</p>
 </div>

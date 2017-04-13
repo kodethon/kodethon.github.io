@@ -9,6 +9,7 @@ bitly: http://bit.ly/2o4myjX-kodethon
 ---
 
 <img class="img-fluid" src="{{site.url}}{{site.baseurl}}/images/kodethon_screenshot.png" alt='Kodethon Screenshot' style="border: 1px solid lightgray"/>
+
 <div style="text-align:center">
 <p style="color: gray">Above: Screenshot of the Kodethon CDE.</p>
 </div>
