@@ -5,28 +5,11 @@ layout: email
   <tr>
     <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
   </tr>
-  <tr>
-    <td align="center" valign="top">
-			<!-- display trouble -->
-			<table width="600" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#ffffff">
-				<tr>
-					<td align="center" valign="top">
-						<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
-							<tr>
-								<td width="600" class="mobile" align="center" valign="top">
-									<p style="color:gray">This email not displaying correctly?  Read this <a href="{{ page.url | absolute_url }}">online</a>.</p> 
-								</td>
-							</tr>
-						</table>
-					</td>
-				</tr>
-			</table>
-		</td>
-	</tr>
-
+  
 	<tr>
-		<td align="center">
+    <td align="center" valign="top">
 			<!-- LOGO -->
+			<center>
 			<table width="600" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#ffffff">
 				<tr>
 					<td align="center" valign="top">
@@ -42,6 +25,7 @@ layout: email
 					</td>
 				</tr>
 			</table>
+			</center>
 
 			<!-- Navbar -->
 			<table width="600" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#ffffff" style="border: 1px solid lightgray">
@@ -100,6 +84,22 @@ layout: email
 				</tr>
 				{% endfor %}
 			</table>
+
+			<!-- LOGO -->
+			<table width="600" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#ffffff">
+				<tr>
+					<td align="center" valign="top">
+						<table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+							<tr>
+								<td width="600" class="mobile" align="center" valign="top">
+									<p style="color:gray">This email not displaying correctly? Read online at <a href="{{ page.url | absolute_url }}">{{ page.url | absolute_url }}</a>.</p> 
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+
 		</td>
 	</tr>
 
