@@ -35,3 +35,10 @@ exclude:
   - Gemfile.lock
 sass:
   sass_dir: _sass
+
+# Collections
+collections:
+  newsletters:
+    output: true
+  tutorials:
+    output: true
