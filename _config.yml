@@ -40,5 +40,6 @@ sass:
 collections:
   newsletters:
     output: true
+    permalink: /:collection/:path.html
   tutorials:
     output: true

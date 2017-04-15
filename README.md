@@ -33,19 +33,33 @@ I am using Bitly links to track clicks from emails.
 
 ### Production
 
-We deploy this blog in a Docker container.
+We deploy this blog in a Docker nginx-alpine container.  Docker images can be
+tagged; TAG identifies the specific Docker image we want to use.
 
-#### Building the Docker image
+First, build the docker image. On the development machine:
 
-docker build -t kodejoy/kodethon-blog .
+1. JEKYLL_ENV=production jekyll build --verbose
+2. docker build -t kodejoy/kodethon-blog .
+3. docker tag TAG kodejoy/kodethon-blog:TAG
+4. docker push kodejoy/kodethon-blog
 
 #### Run docker container
 
-In your production server, run the command below.  The VIRTUAL_HOST and VIRTUAL_PORT are specific to nginx-proxy which is specific to Kodethon's infrastructure.  So you would not need them in another environment, for example, if you are not using nginx-proxy.
+Second, pull and run the docker image.  On the production machine:
 
 ```bash
-docker run -d -P -e "JEKYLL_ENV=production" -e "VIRTUAL_HOST=blog.kodethon.com" -e "VIRTUAL_PORT=4000" kodejoy/kodethon-blog jekyll s
+docker stop kodethon-blog
+docker rm kodethon-blog
+docker pull kodejoy/kodethon-blog:TAG
+docker run -d -P -e "JEKYLL_ENV=production" -e "VIRTUAL_HOST=blog.kodethon.com" -e "VIRTUAL_PORT=80" kodejoy/kodethon-blog
 ```
+
+The above commands can be put in a Bash script and executed.
+
+*Note:* The VIRTUAL_HOST and VIRTUAL_PORT are specific to nginx-proxy which is
+specific to Kodethon's infrastructure.  So you would not need them in another
+environment, for example, if you are not using nginx-proxy.
+
 
 ### Email
 
@@ -62,13 +76,15 @@ To Email Newsletter:
 
 ### Organization
 
-#### Categories
+#### Post Categories
 
 * Announcements
   * General
-  * New Feature
   * Bug fix
-	* New Environment
+* New Feature
+  * Embed
+* New Environment
+  * Prolog
 * Tutorials
   * C
   * C++
@@ -77,14 +93,15 @@ To Email Newsletter:
 
 
 #### videos
-Put video files in the `videos/` folder.
-
+Put video files in the `videos/` folder.  
 #### images 
 Put video files in the `images/` folder.
 
 #### _includes
 
 head.html: You may want to modify this file to include external CSS or JS files.
+
+Order of include matters to Bootstrap.
 
 
 ### Acknowledgements
