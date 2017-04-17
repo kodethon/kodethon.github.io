@@ -14,7 +14,7 @@ bitly: http://bit.ly/2o4myjX-kodethon
 <p style="color: gray">Above: Screenshot of the Kodethon CDE.</p>
 </div>
 
-My name is <b>Kodethon</b>!  I am a brand-new <b>cloud development environment
+My name is <b>Kodethon</b>!  I am a <b>cloud development environment
 (CDE)</b>.  What is that?  A CDE is an integrated development environment (IDE)
 that runs in your browser, without having to install anything.  You can find me
 at [https://kodethon.com](https://kodethon.com).
@@ -24,25 +24,24 @@ code</u></b>.  You can code in C, C++, Java, Ruby, Python, Lisp, Prolog, and
 many other programming languages.  You can code alone or together with other
 people.
 
-Explore around. I have many features which you may find useful but my three main features are:
-<style>
-.card-header {
-	background-color: transparent;
-}
-</style>
+Explore around. You will find that I have many features which you may find
+useful.  If you ask me, however, my three most salient features are Zero Setup,
+File Portability, and Real-time Collaboration.  I am still growing so expect many
+more cool features in the near future. 
+
 <div class="card-group">
   <div class="card">
     <div class="card-block">
       <h4 class="card-title">Zero Setup</h4>
-			<p class="card-text">You do not have to spend anytime installing compilers
-or interpreters on your computer.  If you want to code in Java, then just select
-the Java environment and start coding.</p>
+			<p class="card-text">Save time installing compilers or interpreters on
+your computer.  For example, select the Java
+environment and start coding Java.</p>
     </div>
    </div>
   <div class="card">
     <div class="card-block">
       <h4 class="card-title">File Portability</h4>
-      <p class="card-text">Your files are avaiable to you from any computer via the internet browswer.</p>
+      <p class="card-text">Enjoy convenient access your files from your laptop, desktop, and mobile.  Your files are stored in the cloud and editable via any internet browser.</p>
     </div>
   </div>
   <div class="card">
@@ -53,10 +52,8 @@ the Java environment and start coding.</p>
   </div>
 </div>
 
-<em>And</em> I am still growing as a CDE so expect many more cool features in the near future. 
-
 Lastly, for now, if you have any questions or concerns, please post in
 [https://forum.kodethon.com](https://forum.kodethon.com), where other users or
-the administrators themselves can help you.  Thank you for reading!  
+the administrators themselves can help you.  Thank you for reading and stay tuned for more news. 
 
-At your service, Kodethon.
+At your service, <em>Kodethon</em>.
