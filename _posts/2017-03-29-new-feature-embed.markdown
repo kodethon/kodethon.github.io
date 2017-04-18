@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Embedding Runnable Projects In Webpages"
+title:  "Embed Runnable Code In Webpages"
 date:   2017-03-29 15:58:16 -0700
 categories: ['Announcements', 'New Feature']
 tags: ['New Feature', 'Embed'] 
@@ -9,9 +9,12 @@ tags: ['New Feature', 'Embed']
 bitly: http://bit.ly/2o4tFsD-kodethon
 ---
 
-<img class="img-fluid" src="{{site.url}}{{site.baseurl}}/images/embed_screenshot.png" alt='Kodethon Screenshot' style="border: 1px solid lightgray"/>
+<div  style="margin:0 auto; width:500px;">
+<img class="img-fluid" src="/images/embed.png" alt='Kodethon Screenshot' 
+	style="border: 1px solid lightgray;"/>
+</div>
 
-<div style="text-align:center">
+<div class="top-10 text-center">
 <p style="color: gray">Above: A Kodethon Project embedded into a webpage.  Not an actual embed.</p>
 </div>
 
@@ -19,20 +22,9 @@ bitly: http://bit.ly/2o4tFsD-kodethon
 Here's a new feature we think may help.</p>
 
 <style>
-	body {
-		line-height:1.75em;
-		/*font-size:18px;*/
-	}
-
 	.section {
 		margin-top:25px;
 		margin-bottom:25px;
-	}
-
-	.section-header {
-		margin-top:35px;
-		padding-bottom: 10px;
-		border-bottom:1px solid lightgrey;
 	}
 
 	.highlight {
@@ -50,6 +42,10 @@ Here's a new feature we think may help.</p>
 		margin-bottom:20px;
 	}
 
+	.top-20 {
+		margin-top:20px;
+	}
+
 	.border-bottom-1 {
 		border-bottom:1px solid lightgrey;
 	}
@@ -65,9 +61,9 @@ With this feature you can embed a Kodethon project directly into
 any webpage. Below is a quick demo video of what it looks like:
 </div>
 
-<div class="padding-top-bottom-10">
+<div class="padding-top-bottom-10" style="margin:20px auto 0 auto; width:500px;">
 <video width="100%" controls>
-  <source src="{{site.url}}{{site.baseurl}}/videos/kodethon_embed_demo.mp4" type="video/mp4">
+  <source src="/videos/kodethon_embed_demo.mp4" type="video/mp4">
   <!--<source src="{{site.url}}{{site.baseurl}}/videos/kodethon_embed_demo.ogg" type="video/ogg">-->
   Your browser does not support HTML5 video.
 </video>
@@ -144,7 +140,7 @@ Ready to create an embed? Let's create one in three easy steps!
 
 <h2 class="section-header">Creating an Embed</h2>
 
-<div class="margin-top-bottom-20">
+<div class="top-20">
 <div class="padding-top-bottom-10">
 <p><b>Step 1: Log in to your Kodethon account</b></p>
 If you haven't already, create an account with <a href="https://www.kodethon.com">Kodethon</a>.
@@ -162,8 +158,4 @@ The following link provides instructions on embedding a project: <a href="https:
 
 </div>
 
-<h2 class="section-header">Did you enjoy this post?</h2>
 
-<div class="margin-top-bottom-20" style="margin-bottom:50px;">
-	Let us know what you think below!
-</div>
