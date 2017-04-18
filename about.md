@@ -17,7 +17,7 @@ Our Team:
 Links:
 * [https://kodethon.com](https://kodethon.com)
 * [https://forum.kodethon.com](https://forum.kodethon.com)
-* [https://blog.kodethon.com](https://blog.kodethon.com)
+* [https://kodethon.github.io/](https://kodethon.github.io/)
 
 
 <div style="text-align: center;border:1px solid
