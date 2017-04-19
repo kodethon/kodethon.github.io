@@ -3,23 +3,28 @@
 This repository contains the source code for the Kodethon Blog.  
 The blog is a jekyll blog.
 
-## How to serve blog
-
 ### Development
 
+1. Clone the repo.  
+2. Install gems.  
+3. Run jekyll server.
+
 ```bash
+git clone https://github.com/kodethon/kodethon.github.io
+bundle install
 jekyll server --config _config.yml,_config_dev.yml --drafts --watch
 ```
 
 #### Disqus Comments
 
-<b>shortname:</b> kodethon
-
-To add Disqus comments, I followed the instructions given in Disqus after
-clicking Settings > "Add Disqus to Site".
+To add Disqus comments to posts, I followed the instructions given in Disqus
+after clicking **Settings > "Add Disqus to Site"**.
 
 1. Login into Disqus using my personal account
 2. Followed the disqus official documentation for integrating into jekyll
+
+You will get a shortname.  Make sure that you use the correct shortname.  Our
+shortname is <b>kodethon</b>.
 
 I also found additional resources helpful.
 
@@ -27,43 +32,33 @@ I also found additional resources helpful.
 
 #### Bitly
 
-username: kodethon
+To track clicks, I use Bitly links.
 
-I am using Bitly links to track clicks from emails.
+1. Log into Bitly account.
+2. Create Bitly link for URL. 
+3. Add "-kodethon" to custom bitly url.
+
+username: kodethon
 
 ### Production
 
-We deploy this blog in a Docker nginx-alpine container.  Docker images can be
-tagged; TAG identifies the specific Docker image we want to use.
+Previously, we used to deploy this site as a Docker container in our server
+behind a nginx-proxy.  Now, we simply deploy via Github pages. 
 
-First, build the docker image. On the development machine:
+To deploy:
 
-1. JEKYLL_ENV=production jekyll build --verbose
-2. docker build -t kodejoy/kodethon-blog .
-3. docker tag TAG kodejoy/kodethon-blog:TAG
-4. docker push kodejoy/kodethon-blog
+1. git commit changes
+2. git push changes 
 
-#### Run docker container
-
-Second, pull and run the docker image.  On the production machine:
-
-```bash
-docker stop kodethon-blog
-docker rm kodethon-blog
-docker pull kodejoy/kodethon-blog:TAG
-docker run -d -P -e "JEKYLL_ENV=production" -e "VIRTUAL_HOST=blog.kodethon.com" -e "VIRTUAL_PORT=80" kodejoy/kodethon-blog
-```
-
-The above commands can be put in a Bash script and executed.
-
-*Note:* The VIRTUAL_HOST and VIRTUAL_PORT are specific to nginx-proxy which is
-specific to Kodethon's infrastructure.  So you would not need them in another
-environment, for example, if you are not using nginx-proxy.
+This works for us because this repo is currently the special USERNAME.github.io
+repo.  In other words, it is a user/organization Github pages site.  If it were
+a project site, we would hve to push to the gh-pages.
 
 
 ### Email
 
-Using TinyLetter.
+Through our blog, we can also generate newsletters.  We created a TinyLetter
+account.
 
 username: kodethon
 
@@ -72,11 +67,11 @@ To Email Newsletter:
 2. Click on Source View.
 3. Copy page source from newsletter.
 4. Paste into: https://templates.mailchimp.com/resources/inline-css/
-5. Pase output source into TinyLetter..
+5. Pase output source into TinyLetter.
 
-### Organization
+### Source Code Organization
 
-#### Post Categories
+#### Post Categories/Tags
 
 * Announcements
   * General
@@ -92,10 +87,11 @@ To Email Newsletter:
   * Prolog 
 
 
-#### videos
-Put video files in the `videos/` folder.  
-#### images 
-Put video files in the `images/` folder.
+#### Assets
+
+videos: Put video files in the `videos/` folder.  
+
+images: Put image files in the `images/` folder.
 
 #### _includes
 
