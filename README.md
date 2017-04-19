@@ -1,44 +1,67 @@
 # Kodethon Blog
 
-This repository contains the source code for the Kodethon Blog.  
-The blog is a jekyll blog.
+This is the official blog of the Kodethon cloud development environment.  It is
+a jekyll blog and it follows the conventional structure.
+
+## Main Dependencies
+
+* ruby 2.3.0
+* jekyll 3.2
+* bundler 1.14.6
+
+We specify additional dependencies in the Gemfile.  To install those
+dependencies, you need to run `bundle install` in the repo folder.
 
 ### Development
 
-1. Clone the repo.  
-2. Install gems.  
-3. Run jekyll server.
+When want to make changes to this blog, this is how we do it.
+
+1. Clone the repo  
 
 ```bash
 git clone https://github.com/kodethon/kodethon.github.io
+```
+
+2. Install gems  
+```bash
 bundle install
+```
+
+3. Run jekyll server in development mode
+```bash
 jekyll server --config _config.yml,_config_dev.yml --drafts --watch
 ```
+4. Make changes: new posts, edit post, new page, change CSS, etc.
+
 
 #### Disqus Comments
 
-To add Disqus comments to posts, I followed the instructions given in Disqus
-after clicking **Settings > "Add Disqus to Site"**.
+We added Disqus comments to each post.  To add Disqus comments, I followed the
+instructions given in the Disqus site after clicking **Settings > "Add Disqus to
+Site"**.
 
-1. Login into Disqus using my personal account
-2. Followed the disqus official documentation for integrating into jekyll
+Roughly: 
+1. I logged into my Disqus account
+2. I followed the disqus official documentation for integrating into Jekyll
 
-You will get a shortname.  Make sure that you use the correct shortname.  Our
-shortname is <b>kodethon</b>.
+Our shortname is <b>kodethon</b>.  If you are using this blog as the start of
+your own blog, make sure that you get your own shortname and edit the **disqus**
+value in **_config.yml**. 
 
-I also found additional resources helpful.
+In adding comments to each posts, I also found additional resources helpful.
 
 1. [http://sgeos.github.io/jekyll/disqus/2016/02/14/adding-disqus-to-a-jekyll-blog.html](http://sgeos.github.io/jekyll/disqus/2016/02/14/adding-disqus-to-a-jekyll-blog.html)
 
 #### Bitly
 
-To track clicks, I use Bitly links.
+To track clicks, we use Bitly links.
 
 1. Log into Bitly account.
 2. Create Bitly link for URL. 
 3. Add "-kodethon" to custom bitly url.
+4. In the front matter of the post, I add a **bitly** property.  
 
-username: kodethon
+Our Bitly username is **kodethon**.  Get your own. 
 
 ### Production
 
@@ -58,9 +81,8 @@ a project site, we would hve to push to the gh-pages.
 ### Email
 
 Through our blog, we can also generate newsletters.  We created a TinyLetter
-account.
-
-username: kodethon
+account.  Our username is **kodethon**.  Again, if you are using this blog as
+the start of your own blog.  Get your own username.
 
 To Email Newsletter:
 1. In TinyLetter, click Compose.
@@ -72,6 +94,9 @@ To Email Newsletter:
 ### Source Code Organization
 
 #### Post Categories/Tags
+
+These are the categories/tags we are currently using.  If you write a post and
+it needs a new category, add it here to document it.
 
 * Announcements
   * General
@@ -86,19 +111,18 @@ To Email Newsletter:
   * Java
   * Prolog 
 
+#### Media Assets
 
-#### Assets
+Our media assets can be put in their respective folders.
 
-videos: Put video files in the `videos/` folder.  
-
-images: Put image files in the `images/` folder.
+* videos: Put video files in the `videos/` folder.  
+* images: Put image files in the `images/` folder.
 
 #### _includes
 
 head.html: You may want to modify this file to include external CSS or JS files.
 
-Order of include matters to Bootstrap.
-
+Note: The order of include matters to Bootstrap.
 
 ### Acknowledgements
 
