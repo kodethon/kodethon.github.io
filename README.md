@@ -1,7 +1,8 @@
 # Kodethon Blog
 
-This is the official blog of the Kodethon cloud development environment.  It is
-a jekyll blog and it follows the conventional structure.
+This is the official blog of the [Kodethon](https://kodethon.com) cloud
+development environment.  It is a jekyll blog and it follows the conventional
+structure.
 
 ## Main Dependencies
 
