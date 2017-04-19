@@ -13,7 +13,7 @@ structure.
 We specify additional dependencies in the Gemfile.  To install those
 dependencies, you need to run `bundle install` in the repo folder.
 
-### Development
+## Development
 
 When want to make changes to this blog, this is how we do it.
 
@@ -35,7 +35,7 @@ jekyll server --config _config.yml,_config_dev.yml --drafts --watch
 4. Make changes: new posts, edit post, new page, change CSS, etc.
 
 
-#### Disqus Comments
+### Disqus Comments
 
 We added Disqus comments to each post.  To add Disqus comments, I followed the
 instructions given in the Disqus site after clicking **Settings > "Add Disqus to
@@ -53,7 +53,7 @@ In adding comments to each posts, I also found additional resources helpful.
 
 1. [http://sgeos.github.io/jekyll/disqus/2016/02/14/adding-disqus-to-a-jekyll-blog.html](http://sgeos.github.io/jekyll/disqus/2016/02/14/adding-disqus-to-a-jekyll-blog.html)
 
-#### Bitly
+### Bitly
 
 To track clicks, we use Bitly links.
 
@@ -64,7 +64,7 @@ To track clicks, we use Bitly links.
 
 Our Bitly username is **kodethon**.  Get your own. 
 
-### Production
+## Production
 
 Previously, we used to deploy this site as a Docker container in our server
 behind a nginx-proxy.  Now, we simply deploy via Github pages. 
@@ -79,7 +79,7 @@ repo.  In other words, it is a user/organization Github pages site.  If it were
 a project site, we would hve to push to the gh-pages.
 
 
-### Email
+## Email
 
 Through our blog, we can also generate newsletters.  We created a TinyLetter
 account.  Our username is **kodethon**.  Again, if you are using this blog as
@@ -92,9 +92,9 @@ To Email Newsletter:
 4. Paste into: https://templates.mailchimp.com/resources/inline-css/
 5. Pase output source into TinyLetter.
 
-### Source Code Organization
+## Source Code Organization
 
-#### Post Categories/Tags
+### Post Categories/Tags
 
 These are the categories/tags we are currently using.  If you write a post and
 it needs a new category, add it here to document it.
@@ -112,19 +112,19 @@ it needs a new category, add it here to document it.
   * Java
   * Prolog 
 
-#### Media Assets
+### Media Assets
 
 Our media assets can be put in their respective folders.
 
 * videos: Put video files in the `videos/` folder.  
 * images: Put image files in the `images/` folder.
 
-#### _includes
+### _includes
 
 head.html: You may want to modify this file to include external CSS or JS files.
 
 Note: The order of include matters to Bootstrap.
 
-### Acknowledgements
+## Acknowledgements
 
 * [Social Media Share Bar for Jekyll blog/website](http://mycyberuniverse.com/web/social-media-share-bar-jekyll-blog-website.html)
