@@ -6,7 +6,7 @@ date:   2017-03-29 15:58:16 -0700
 categories: ['Announcements', 'New Feature']
 tags: ['New Feature', 'Embed'] 
 #author: Martin Velez and Michael Yen
-bitly: http://bit.ly/2o4tFsD-kodethon
+bitly: http://bit.ly/2olhM1S-kodethon
 ---
 
 <div  style="margin:0 auto; width:500px;">

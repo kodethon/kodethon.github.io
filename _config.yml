@@ -26,6 +26,7 @@ twitter_username: martin_velez_
 github_username:  martinvelez
 #permalink: date # default
 permalink: /:year/:month/:day/:title.html
+disqus: kodethon
 
 # Build settings
 markdown: kramdown

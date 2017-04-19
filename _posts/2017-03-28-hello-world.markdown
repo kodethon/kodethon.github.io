@@ -5,7 +5,7 @@ title:  "Hello, World!"
 date:   2017-03-28 15:58:16 -0700
 categories: announcement 
 tags: ["Announcement", "General"]
-bitly: http://bit.ly/2o4myjX-kodethon
+bitly: http://bit.ly/2oTOjyP-kodethon
 ---
 
 <img class="img-fluid" src="/images/kodethon.png" alt='Kodethon Screenshot' style="border: 1px solid rgb(244,244,244);"/>
