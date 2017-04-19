@@ -27,6 +27,9 @@ github_username:  martinvelez
 #permalink: date # default
 permalink: /:year/:month/:day/:title.html
 disqus: kodethon
+bitly_kodethon_url: http://bit.ly/2pf1YBI-kodethon
+bitly_blog_url: http://bit.ly/2pAiWrd-kodethon 
+bitly_forum_url: http://bit.ly/2o1WB8P-kodethon 
 
 # Build settings
 markdown: kramdown
