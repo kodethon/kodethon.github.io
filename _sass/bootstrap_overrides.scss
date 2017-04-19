@@ -5,6 +5,8 @@
 }
 
 .badge-tag {
+	font-weight: $base-font-weight;
+	font-size: $small-font-size;
 	color: #828282; /* post-meta color */
 	background-color: transparent;
 }
