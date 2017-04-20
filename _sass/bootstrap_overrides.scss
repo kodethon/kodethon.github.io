@@ -1,4 +1,14 @@
 /* Added by Martin on Apr 2017 */
+
 .badge {
 	border-radius: 0;
 }
+
+.badge-tag {
+	font-weight: $base-font-weight;
+	font-size: $small-font-size;
+	color: #828282; /* post-meta color */
+	background-color: transparent;
+}
+
+

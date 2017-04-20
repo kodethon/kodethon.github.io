@@ -103,7 +103,7 @@ A **number** is either an integer or a float.  For example, 42 and 3.14 are both
 
 A **variable** is a string of characters that serve as placeholders for arbitrary terms.  For example, in `male(X)`, X is a variable.
 
-A **compound term** is composed of an atom called a functor and a number of "arguments".  For example, `truck\_year('Mazda', 1986)`, `female(sophia)`, and `parent(charles, james)` are all compound terms.
+A **compound term** is composed of an atom called a functor and a number of "arguments".  For example, `truck_year('Mazda', 1986)`, `female(sophia)`, and `parent(charles, james)` are all compound terms.
 
 <h2 class="section-header">A Complete Prolog Program</h2>
 
