@@ -8,7 +8,7 @@ tags: ["Announcement", "General"]
 bitly: http://bit.ly/2oTOjyP-kodethon
 ---
 
-<img class="img-fluid" src="/images/kodethon.png" alt='Kodethon Screenshot' style="border: 1px solid rgb(244,244,244);"/>
+<img class="img-fluid" src="{{site.url}}/images/kodethon.png" alt='Kodethon Screenshot' style="border: 1px solid rgb(244,244,244);"/>
 
 <div style="text-align:center">
 <p style="color: gray">Above: Screenshot of the Kodethon CDE.</p>
