@@ -1,11 +1,11 @@
 ---
 layout: post
 comments: true
-title:  Running C Code in the Browser
+title:  The Magic Run Button
 date:   2017-04-18 12:00:00 -0700
-categories: ["New Environment", "C"]
-tags: ["New Environment", "C", "Tutorial"]
-bitly: http://bit.ly/2pQxuCl-kodethon
+categories: ["New Feature", "Zero Setup"]
+tags: ["New Feature", "Zero Setup"]
+bitly: 
 ---
 
 <img src="{{site.url}}{{site.baseurl}}/images/prolog_factorial.png" alt="Factorial Recursion in Prolog" class="img-fluid mx-auto d-block" style="border: 1px solid lightgrey"/>
@@ -14,14 +14,8 @@ bitly: http://bit.ly/2pQxuCl-kodethon
 <p style="color: gray;margin-top:0px">Right: A tree representation of the goal factorial(3,6).</p>
 </div>
 
+<h2>Overview</h2>
 
-<style>
-	.section-header {
-		margin-top:35px;
-		padding-bottom: 10px;
-		border-bottom:1px solid lightgrey;
-	}
-</style>
 
 
 <h2 class="section-header">Summary</h2>
