@@ -9,7 +9,7 @@ title: Computational Linguistics (LIN 177)
 </tr>
 <tr>
 <th>Professor(s)</th>
-<td>Almerindo Ojeda</td>
+<td>[Almerindo Ojeda](http://linguistics.ucdavis.edu/people/fzojeda)</td>
 </tr>
 <tr>
 <th>Textbook(s)</th>
