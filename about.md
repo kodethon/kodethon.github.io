@@ -4,13 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the offical blog for the Kodethon cloud development environment.
+This is the official blog for the Kodethon cloud development environment.
 Kodethon's purpose is simple: <b>to help people code</b>.
 
 Our Team:
 * Martin Velez, Ph.D. Student at University of California, Davis
 * Michael Yen, Undergraduate Student at University of California, Davis
 * Mathew Le, Undergraduate Student at University of California, Davis
+* Kevin Yen, Undergraduate Student at University of California, Berkeley
 * Zhendong Su, Computer Science Professor at University of California, Davis
 
 
