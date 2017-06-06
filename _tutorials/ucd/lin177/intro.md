@@ -2,6 +2,7 @@
 layout: page
 title: Computational Linguistics (LIN 177)
 ---
+
 <table class="table table-condensed table-bordered">
 <tr>
 <th>University</th>
@@ -9,7 +10,7 @@ title: Computational Linguistics (LIN 177)
 </tr>
 <tr>
 <th>Professor(s)</th>
-<td>[Almerindo Ojeda](http://linguistics.ucdavis.edu/people/fzojeda)</td>
+<td><a href="http://linguistics.ucdavis.edu/people/fzojeda">Almerindo Ojeda</a></td>
 </tr>
 <tr>
 <th>Textbook(s)</th>
