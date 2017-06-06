@@ -4,16 +4,20 @@ title: About
 permalink: /about/
 ---
 
-University of California, Davis
+This is the offical blog for the Kodethon cloud development environment.
+Kodethon's purpose is simple: <b>to help people code</b>.
 
-Computer Science
+Our Team:
+* Martin Velez, Ph.D. Student at University of California, Davis
+* Michael Yen, Undergraduate Student at University of California, Davis
+* Mathew Le, Undergraduate Student at University of California, Davis
+* Zhendong Su, Computer Science Professor at University of California, Davis
 
-* [ECS 30]()
-* [ECS 30]()
 
-Linguistics
-
-* [Computational Linguistics (LIN 177)](http://catalog.ucdavis.edu/programs/LIN/LINcourses.html)
+Links:
+* [https://kodethon.com](https://kodethon.com)
+* [https://forum.kodethon.com](https://forum.kodethon.com)
+* [https://kodethon.github.io/](https://kodethon.github.io/)
 
 
 <div style="text-align: center;border:1px solid
