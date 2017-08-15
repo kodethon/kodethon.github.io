@@ -33,9 +33,6 @@ used throughout the course.  With Kodethon, students can consult these Prolog
 programs easily without having to install any software on their computers which
 can often be challenging.
 
-Kodethon is a web application that supports editing and "running" Prolog programs.
-
-
 <h2 class="section-header">Getting Started</h2>
 
 <ol type="A">
