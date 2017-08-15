@@ -12,7 +12,15 @@ layout: default
 
 <h5>University of California, Davis</h5>
 
-[Computational Linguistics (LIN 177)](/tutorials/ucd/lin177/intro.html)
+<h6>Linguistics</h6>
+
+* [Computational Linguistics (LIN 177)](/tutorials/ucd/lin177/intro.html)
+
+<h5>Peru</h5>
+
+<h6>Linguistics</h6>
+
+* [Computational Linguistics (LIN 177)](/tutorials/ucd/lin177/intro.html)
 
 
 

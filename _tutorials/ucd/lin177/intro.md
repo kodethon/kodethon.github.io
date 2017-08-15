@@ -14,7 +14,8 @@ title: Computational Linguistics (LIN 177)
 </tr>
 <tr>
 <th>Textbook(s)</th>
-<td>A Computational Introduction to Linguistics. Describing Language in Plain PROLOG</td>
+<td>A Computational Introduction to Linguistics:<br>
+Describing Language in Plain PROLOG</td>
 </tr>
 <tr>
 <th>Recent Terms</th>
@@ -32,26 +33,33 @@ used throughout the course.  With Kodethon, students can consult these Prolog
 programs easily without having to install any software on their computers which
 can often be challenging.
 
+Kodethon is a web application that supports editing and "running" Prolog programs.
+
 
 <h2 class="section-header">Getting Started</h2>
 
-<h3>A. Create an Account</h3>
-
-1. Go to [https://kodethon.com](https://kodethon.com)
-2. Click "Login"
-
-<h3>B. Get Files</h3>
-
-Import the files provided by the instructor from a public project to your
-private folder.
-
-1. Go to
-[https://www.kodethon.com/#/CDE?c=9a1c09c1e7aecbc161884c841a80a9bb](https://www.kodethon.com/#/CDE?c=9a1c09c1e7aecbc161884c841a80a9bb)
-2. Click the "Fork" button
-    * A popup message will tell you where the files were copied to (e.g., "Files forked to folder \<FOLDERNAME\>")
-3. (Optional) Rename \<FOLDERNAME\> to LIN177
-4. Click "OK"
-
+<ol type="A">
+	<li>Create an account
+		<ol>
+			<li>Go to <a href="https://kodethon.com">https://kodethon.com</a></li>
+			<li>Click "Login"</li>
+		</ol>
+	</li>
+	
+	<li>Get files: Import the files provided by the instructor from a public project to your private folder.
+		<ol>
+			<li>Go to
+<a href="https://www.kodethon.com/#/CDE?c=9a1c09c1e7aecbc161884c841a80a9bb">https://www.kodethon.com/#/CDE?c=9a1c09c1e7aecbc161884c841a80a9bb</a></li>
+			<li>Click the "Fork" button
+    		<ul>
+					<li>A popup message will tell you where the files were copied to (e.g., "Files forked to folder &lt;FOLDERNAME&gt;")</li>
+				</ul>
+			</li>
+			<li>(Optional) Rename &lt;FOLDERNAME&gt; to LIN177</li>
+			<li>Click "OK"</li>
+		</ol>
+	</li>
+</ol>
 
 <h2 class="section-header">Consulting Prolog Programs</h2>
 
@@ -71,7 +79,7 @@ course, SWI-Prolog is preferred.
 2. Click on "Settings"
 3. In the Environment section:
     * Select "Prolog"
-    * Select "SWI-7.4.1"
+    * Select "SWI-5.10.4"
 
 
 <h3>Method #1: The Green Magic Run Button</h3>
@@ -95,9 +103,9 @@ course, SWI-Prolog is preferred.
 4. In the terminal, type **swipl \<FILENAME\>**
     * \<FILENAME\> is the name of the file you want to consult. 
 
-<h2 class="section-header">Video Tutorial</h2>
+<h2 class="section-header">Slides</h2>
 
-In the following video, I demonstrate all of the steps above.
+The following slides provide text and video instructions.
 
-\<YOUTUBE TUTORIAL LINK\>
+<iframe src="https://docs.google.com/presentation/d/1iSjvPsF6tpkAW87vt3d2xsFxkgQa65RKywgqzXET3kg/embed?start=false&loop=true&delayms=5000" frameborder="0" width="705" height="425" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
