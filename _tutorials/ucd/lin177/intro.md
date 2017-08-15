@@ -27,11 +27,10 @@ Describing Language in Plain PROLOG</td>
 <h2 class="section-header">Introduction</h2>
 
 Computational Linguistics (LIN 177) is a course taught at University of
-California, Davis.  In this course, students use Prolog, a general-purpose logic
-programming language.  The professor provides a set of Prolog files that are
-used throughout the course.  With Kodethon, students can consult these Prolog
-programs easily without having to install any software on their computers which
-can often be challenging.
+California, Davis.  In this course, the professor provides a set of Prolog
+files that students have to "run".  With Kodethon, students can "run" these
+Prolog programs easily without having to install any software on their
+computers, which can be challenging.
 
 <h2 class="section-header">Getting Started</h2>
 
