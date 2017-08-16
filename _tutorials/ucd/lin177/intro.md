@@ -3,26 +3,9 @@ layout: page
 title: Computational Linguistics (LIN 177)
 ---
 
-<table class="table table-condensed table-bordered">
-<tr>
-<th>University</th>
-<td>University of California, Davis</td>
-</tr>
-<tr>
-<th>Professor(s)</th>
-<td><a href="http://linguistics.ucdavis.edu/people/fzojeda">Almerindo Ojeda</a></td>
-</tr>
-<tr>
-<th>Textbook(s)</th>
-<td>A Computational Introduction to Linguistics:<br>
-Describing Language in Plain PROLOG</td>
-</tr>
-<tr>
-<th>Recent Terms</th>
-<td>Spring 2017</td>
-</tr>
+<iframe src="https://docs.google.com/presentation/d/1iSjvPsF6tpkAW87vt3d2xsFxkgQa65RKywgqzXET3kg/embed?start=false&loop=true&delayms=5000" frameborder="0" width="705" height="425" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<p class="text-center">The slides above provide text and video instructions.</p>
 
-</table>
 
 <h2 class="section-header">Introduction</h2>
 
@@ -31,6 +14,7 @@ California, Davis.  In this course, the professor provides a set of Prolog
 files that students have to "run".  With Kodethon, students can "run" these
 Prolog programs easily without having to install any software on their
 computers, which can be challenging.
+
 
 <h2 class="section-header">Getting Started</h2>
 
@@ -99,9 +83,26 @@ course, SWI-Prolog is preferred.
 4. In the terminal, type **swipl \<FILENAME\>**
     * \<FILENAME\> is the name of the file you want to consult. 
 
-<h2 class="section-header">Slides</h2>
+<h2 class="section-header">Miscellaneous</h2>
 
-The following slides provide text and video instructions.
+<table class="table table-condensed table-bordered">
+<tr>
+<th>University</th>
+<td>University of California, Davis</td>
+</tr>
+<tr>
+<th>Professor(s)</th>
+<td><a href="http://linguistics.ucdavis.edu/people/fzojeda">Almerindo Ojeda</a></td>
+</tr>
+<tr>
+<th>Textbook(s)</th>
+<td>A Computational Introduction to Linguistics:<br>
+Describing Language in Plain PROLOG</td>
+</tr>
+<tr>
+<th>Recent Terms</th>
+<td>Spring 2017</td>
+</tr>
 
-<iframe src="https://docs.google.com/presentation/d/1iSjvPsF6tpkAW87vt3d2xsFxkgQa65RKywgqzXET3kg/embed?start=false&loop=true&delayms=5000" frameborder="0" width="705" height="425" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</table>
 
