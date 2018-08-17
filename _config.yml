@@ -50,3 +50,10 @@ collections:
   tutorials:
     output: true
     #permalink: /:collection/:path.html
+
+# Author details.
+authors:
+  martin_velez:
+    name: Martin Velez 
+    email: marvelez@ucdavis.edu
+    twitter: http://twitter.com/martin_velez_
