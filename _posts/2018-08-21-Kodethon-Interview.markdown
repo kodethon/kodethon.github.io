@@ -63,7 +63,7 @@ pre-written code. If you are looking for candidates with a particular skill, we
 can help create an assignment for your needs. 
 
 Moving forward, we will keep Kodethon Courses at https://kodethon.com and
-Kodethon Interview at https://kodethon.com/work. Kodethon Interview will be
+Kodethon Interview at https://kodethon.com/#/work. Kodethon Interview will be
 focused towards tech companies and technical screening, while Kodethon Courses
 will be for education. Rest assured, we will continue to support both services
 and will let you know if we change this policy.
