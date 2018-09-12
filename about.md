@@ -11,8 +11,8 @@ Our Team:
 * Martin Velez, Ph.D., Cofounder, Head of University Relations and Research
 * Michael Yen, Cofounder, Head of Engineering and Product
 * Matt Le, Cofounder, Head of Sales and Business Development
-* Katherine Yen, Software Engineering Intern
 * Zhendong Su, Advisor, Computer Science Professor at the University of California, Davis and ETH Zurich
+* Katherine Yen, Software Engineering Intern
 
 
 Links:
