@@ -8,11 +8,11 @@ This is the official blog for the Kodethon technical assessment service.
 Kodethon's purpose is simple: <b>to help companies find better candidates and universities spend more time teaching</b>.
 
 Our Team:
-* Martin Velez, Ph.D., Cofounder
-* Michael Yen, Cofounder
-* Matt Le, Cofounder
-* Kevin Yen, Undergraduate Student at University of California, Berkeley
-* Zhendong Su, Computer Science Professor at University of California, Davis and ETH Zurich
+* Martin Velez, Ph.D., Cofounder, Head of University Relations and Research
+* Michael Yen, Cofounder, Head of Engineering and Product
+* Matt Le, Cofounder, Head of Sales and Business Development
+* Katherine Yen, Software Engineering Intern
+* Zhendong Su, Advisor, Computer Science Professor at the University of California, Davis and ETH Zurich
 
 
 Links:
@@ -25,7 +25,7 @@ Links:
 lightgrey;background-color:white">
 <br>
 <p style="margin:0;color:#F39237;font-family:'Varela Round',
-sans-serif;font-size:1.5rem"><em>"A better technical assessment"</em></p>
+sans-serif;font-size:1.5rem"><em>"Find better developers faster"</em></p>
 <br>
 </div>
 
