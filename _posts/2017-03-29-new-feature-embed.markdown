@@ -88,7 +88,7 @@ Answering Questions
 A: <b>Anyone!</b>  All you have to do is create a
 Kodethon project.  And get its embed link.  We believe that anyone who writes
 regularly about programming subjects like bloggers, tutorial writers, teachers,
-and researchers will find this feature useful.  <a href="https://3b5d30f75af09e6233bd7b4ce3853de8-environ.kodethon.com/demo/index.html" target="_blank">Here is an example of how you might incorporate this into a blog.</a>
+and researchers will find this feature useful.  <a href="https://www.kodethon.com/embed.html" target="_blank">Here is an example of how you might incorporate this into a blog.</a>
 </div>
 
 <div class="margin-top-bottom-20">
