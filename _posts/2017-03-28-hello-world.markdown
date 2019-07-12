@@ -54,7 +54,7 @@ environment and start coding Java.</p>
 
 <div style="margin-top:10px;">
 If you have any questions or concerns, please post in our
-<a href="https://forum.kodethon.com">forum</a>, where you can get help from
+<a href="https://support.kodethon.com">support</a>, where you can get help from
 our support team. Thank you for reading and stay tuned for more news. 
 </div>
 

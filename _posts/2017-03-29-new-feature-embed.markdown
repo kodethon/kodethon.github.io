@@ -148,12 +148,12 @@ If you haven't already, create an account with <a href="https://www.kodethon.com
 
 <div class="padding-top-bottom-10">
 <p><b>Step 2: Create a Kodethon Project</b></p>
-The following link provides instructions on creating a project in Kodethon: <a href="https://forum.kodethon.com/d/2-how-to-create-a-project">https://forum.kodethon.com/d/2-how-to-create-a-project</a>
+The following link provides instructions on creating a project in Kodethon: <a href="https://support.kodethon.com/d/2-how-to-create-a-project">https://support.kodethon.com/d/2-how-to-create-a-project</a>
 </div>
 
 <div class="padding-top-bottom-10">
 <p><b>Step 3: Get the Embed Link from your project 'Settings'</b></p>
-The following link provides instructions on embedding a project: <a href="https://forum.kodethon.com/d/22-how-to-embed-files">https://forum.kodethon.com/d/22-how-to-embed-files</a>
+The following link provides instructions on embedding a project: <a href="https://support.kodethon.com/d/22-how-to-embed-files">https://support.kodethon.com/d/22-how-to-embed-files</a>
 </div>
 
 </div>
